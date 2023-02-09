@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  padding: 36px;
+  background-color: #4b0082;
+  border-bottom: 5px solid #ffd700;
+}
+
+.container-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container-nav img {
+  width: 50px;
+  position: absolute;
+  left: -4px;
+  top: -5px;
+}
+
+.container-nav h1 {
+  color: #fff;
+  margin-left: 50px;
+}
+
+.nav-link {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link-item {
+  margin-right: 26px;
+  color: #fff;
+  
+}
+
+.nav-link-item:hover {
+  color: #ffd700;
+}
+
+.sobre .container img {
+  width: 50%;
+}
+
+.sobre .container {
+  display: flex;
+  background-color: #000;
+  border-bottom: 5px solid #ffd700;
+}
+
+.sobre .container h2 {
+  text-align: center;
+  color:  #fff;
+  margin-top: 50px;
+}
+
+.sobre .container p {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.social-icon {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+.social-icon-link {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.social-icon-link:hover {
+  color: #ffd700;
+}
+
+.planos .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  color: #fff;
+  background-color: #000;
+}
+
+.card-planos {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #fff;
+  padding: 26px;
+  width: 200px;
+  justify-content: flex-end;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.card-planos h3 {
+  text-align: center;
+  border-bottom: 2px solid #ffd700;
+}
+
+.card-planos p {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 18px;
+}
+
+.card-planos span {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.destaque {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.btn-card {
+  width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.btn-card:hover {
+  background-color: #e4d57e;
+}
+
+.img-card {
+  margin-bottom: 100px;
+}
+
+.img-card img {
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.img-card h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-card p {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.recomend h3 {
+  border-bottom: 2px solid #ffd700;
+  color: #ffd700;
+}
+
+.recomend span {
+  font-size: 3em;
+  color: #ffd700;
+}
+
+.assine .container {
+  display: flex;
+  align-items: center;
+  background-color: #ffd700;
+  height: 150px;
+  margin-top: 100px;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-left: 30px;
+}
+
+.content p {
+  font-size: 1.25em;
+  margin-left: 30px;
+}
+
+.content-p {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.icon-whats {
+  margin-left: 40px;
+  font-size: 2em;
+}
+
+.linha {
+  height: 100px;
+  border-right: 3px solid rgb(0, 0, 0);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+form {
+  flex-grow: 1;
+}
+
+form, input, button {
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+input {
+  font-size: 0,9em;
+}
+
+form button {
+  background-color: #ff9900;
+  border: 1px solid #ff9900;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #feaf38;
+}
