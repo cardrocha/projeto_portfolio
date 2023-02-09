@@ -211,6 +211,7 @@ header {
 .icon-whats {
   margin-left: 40px;
   font-size: 2em;
+  color: #008000;
 }
 
 .linha {
@@ -242,4 +243,72 @@ form button {
 
 form button:hover {
   background-color: #feaf38;
+}
+
+.faq {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.faq-title {
+  font-size: 2em;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.container-faq {
+  max-width: 1280px;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.container-faq button {
+  background-color: #ffd700;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  border-bottom: 5px solid #4b0082;
+  margin-bottom: 20px;
+}
+
+.painel {
+  padding: 10px;
+  display: none;
+  background-color: transparent;
+  overflow: hidden;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff
+}
+
+.accordion {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+}
+
+.accordion::after {
+  content: ">";
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  color: #000;
+  font-size: 1.5em;
+}
+
+.accordion.active::after {
+  content: '↕';
+  top: 10px;
+  font-size: 2em;
 }
