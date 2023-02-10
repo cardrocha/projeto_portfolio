@@ -88,6 +88,7 @@ header {
 
 .social-icon-link:hover {
   color: #ffd700;
+  scale: calc(1.2);
 }
 
 .planos .container {
@@ -315,21 +316,25 @@ form button:hover {
 
 .contato {
   margin-top: 150px;
-  color: #fff;
-  background-color: #4b0082;
+  color: #000;
+  background-color: #ffd700
+}
+
+.contato .container {
+  padding-bottom: 50px;
 }
 
 section.contato {
-  border-top: 5px solid #ffd700;
+  border-top: 5px solid #4b0082
 }
 
 .contato h2 {
-  margin-left: 50px;
+  margin-left: 40px;
   padding-top: 16px;
 }
 
 label {
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 
@@ -339,7 +344,49 @@ form.container {
   justify-content: space-around;
 }
 
+input, textarea {
+  border: none;
+}
+
+input:focus {
+  background-color: #faeda7;
+}
+
 textarea {
   resize: none;
   border-radius: 5px;
+}
+
+textarea:focus {
+  background-color: #faeda7;
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+footer {
+  padding: 36px;
+  background-color: #4b0082;
+  color: #fff;
+}
+
+footer, h2, h3, p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-icon-footer {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.social-icon-footer-link {
+  cursor: pointer;
+}
+
+.social-icon-footer-link:hover {
+  color: #ffd700;
+  scale: calc(1.2);
 }
