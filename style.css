@@ -278,17 +278,16 @@ form button:hover {
   border-radius: 0;
   border: none;
   border-bottom: 5px solid #4b0082;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .painel {
-  padding: 10px;
   display: none;
   background-color: transparent;
   overflow: hidden;
-  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-  color: #fff
+  color: #fff;
 }
 
 .accordion {
@@ -309,6 +308,38 @@ form button:hover {
 
 .accordion.active::after {
   content: '↕';
-  top: 10px;
+  top: 8px;
   font-size: 2em;
+  font-weight: bold;
+}
+
+.contato {
+  margin-top: 150px;
+  color: #fff;
+  background-color: #4b0082;
+}
+
+section.contato {
+  border-top: 5px solid #ffd700;
+}
+
+.contato h2 {
+  margin-left: 50px;
+  padding-top: 16px;
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+}
+
+form.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+textarea {
+  resize: none;
+  border-radius: 5px;
 }
