@@ -366,14 +366,18 @@ hr {
 }
 
 footer {
-  padding: 36px;
+  padding: 10px;
   background-color: #4b0082;
   color: #fff;
 }
 
-footer, h2, h3, p {
+footer, h4, h5, p {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 0.7em;
 }
 
 .social-icon-footer {
