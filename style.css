@@ -458,12 +458,16 @@ footer p {
 }
 
 .assine .container {
-  height: 300px;
+  height: 340px;
   flex-direction: column;
 }
 
 .content, h2 p {
   margin-right: 40px;
+}
+
+.form input {
+  margin-bottom: 10px;
 }
 
 .row {
@@ -499,4 +503,74 @@ textarea {
   width: 100%;
 }
 
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+  .planos .container {
+    flex-direction: column;
+  }
+
+  .sobre .container {
+    flex-direction: column;
+  }
+
+  .sobre .container img {
+    width: 100%;
+  }
+
+  .social-icon {
+    margin-bottom: 20px;
+  }
+
+  .form input, 
+  .form button {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  form.container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  form.container,
+  textarea {
+    margin-left: 40px;
+  }
+
+  form.containe, h2{
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sobre .container {
+    flex-direction: column;
+  }
+  .sobre .container img {
+    width:  100%;
+  }
+
+  .social-icon {
+    margin-bottom: 20px;
+  } 
+
+  .planos .container{
+    justify-content: space-around;
+  }
+  .img-card {
+    display: none;
+  }
+  form.container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  form.containe, h2 {
+    text-align: center;
+  }
+
+  form.container,
+  textarea {
+    margin-left: 30px;
+  }
 }
