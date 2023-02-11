@@ -39,6 +39,19 @@ header {
   list-style: none;
 }
 
+.nav-link li a {
+  padding: 5px;
+  background-color: #460b71;
+  border-bottom: 2px solid #2b0149;
+  border-radius: 8px;
+}
+
+.nav-link li a:hover {
+  background-color: #4b1770;
+  border-bottom: 2px solid #2e1242;
+  border-radius: 8px;
+}
+
 .nav-link-item {
   margin-right: 26px;
   color: #fff;
@@ -222,6 +235,10 @@ header {
   margin-left: 20px;
 }
 
+.row {
+  display: none;
+}
+
 form {
   flex-grow: 1;
 }
@@ -393,4 +410,93 @@ footer p {
 .social-icon-footer-link:hover {
   color: #ffd700;
   scale: calc(1.2);
+}
+
+@media (max-width: 767px) {
+  .container-nav {
+    flex-direction: column;
+}
+
+.container-nav img {
+  width: 50px;
+  position: absolute;
+  left: 50px;
+  top: -7px;
+}
+
+.container-nav h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.nav-link li {
+  margin-left: 40px;
+  margin-bottom: 14px;
+}
+
+.sobre .container {
+  flex-direction: column;
+}
+
+.sobre .container img {
+  width: 100%;
+}
+
+.social-icon {
+  margin-bottom: 20px;
+}
+
+.planos .container {
+  flex-direction: column;
+}
+
+.assine .container {
+  height: 300px;
+  flex-direction: column;
+}
+
+.content, h2 p {
+  margin-right: 40px;
+}
+
+.row {
+  display: flex;
+  width: 90%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.content-p p {
+  margin-left: 18px;
+}
+
+.icon-whats {
+  margin-right: 40px;
+}
+
+.linha {
+  display: none;
+}
+
+.container-faq {
+  width: 90%;
+}
+
+.contato .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+textarea {
+  width: 100%;
+}
+
 }
